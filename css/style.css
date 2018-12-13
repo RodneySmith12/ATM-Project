@@ -1,0 +1,166 @@
+body{
+    background-color:grey;
+}
+h1 {
+    color: lightgray;
+    text-align: center;
+}
+.box{
+    background-color:black;
+    padding: 20px;
+    height: 400px;
+}
+.block{
+    display: inline-block;
+    background-color: cadetblue;
+    padding:30px;
+    width: 100%;
+}
+.c{
+    margin: 0 auto;
+    width: 95vw;
+    padding: 20px;
+    border-radius: 30px;
+    background-color:#262638;
+    transform: perspective(56px)rotateX(1deg);
+}
+.button{
+    margin-right: auto;
+    width:50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: dimgrey;
+    border-spacing:30px;
+}
+.the{
+    background-color: #262638;
+    perspective: (10px)rotateY(2deg);
+}
+.boxxx1{
+    background-color:red;
+    margin-bottom:5px;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+}
+.boxex1{
+    background-color: chocolate;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+}
+.boxrx1{
+    background-color: green;
+    margin-bottom: 5px;
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+}
+.boxx1{
+
+}
+.b{
+
+}
+.card{
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #262638;
+    width: 100%;
+}
+
+.button{
+    float: left;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: calc(100%/3 - 5px);
+    padding: 20px;
+}
+.card p{
+    text-align: center;
+}
+.card hr{
+    height: 2px;
+    display: block;
+    text-align:center;
+    width: 60%;
+    border-top: 10px solid black;
+}
+.button2{
+    padding: 20px;
+    width: 5px;
+    background-color: darkgoldenrod;
+    margin-left: 512px;
+}
+.card2{
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #262638;
+    width: 100%;
+    margin-bottom: 60px;
+    z-index: 1;
+}
+.card2 hr{
+    height: 2px;
+    display: block;
+    text-align:center;
+    width: 60%;
+    border-top: 10px solid black;
+}
+.card2 p{
+    text-align: center;
+}
+.card3{
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: inset 0 0 10px #262638;
+    width: 100%;
+    z-index: 1;
+}
+.card3 p{
+    text-align: center;
+}
+.card3 hr{
+    height: 2px;
+    display: block;
+    text-align:center;
+    width: 60%;
+    border-top: 10px solid black;
+}
+.card img{
+    margin-left: 206px;
+    height: 100px;
+
+}
+.screen{
+    height: 20px;
+    background-color: white;
+    width: unset;
+}
+.qq {
+    display:inline-block;
+    background-color: black;
+    width: 38px;
+    height: 35px;
+    margin-bottom: 15px;
+}
+.qwerty{
+    display: inline-grid;
+    padding: 24px;
+}
+.treyway {
+    display: inline-grid;
+    padding: 24px;
+}
+.top{
+    background-color: brown;
+    height: 100px;
+    transform: perspective(70px) rotateX(175deg);
+    width: 1400px;
+    margin-left: 67px;
+}
+
+.right {
+    float: right;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ATM</title>
+</head>
+<body>
+    <div class="top"></div>
+    <div class="the">
+        <h1>BANK OF ROD Worlds Best ATM!</h1>
+    </div>
+    <div class="sidebutton"></div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-5"style="background:#555;">
+                <div class="col-sm-2">
+                    <div class="treyway">
+                        <button onclick="startScreen()" class="qq"></button>
+                        <button onclick="SecScreen()" class="qq"></button>
+                        <button onclick="ThirdScreen()" class="qq"></button>
+                    </div>
+                </div>
+                <div class="col-sm-8">
+                    <div class="box">
+                        <div class="block" id="output">THE ATM OF THE YEAR</div>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="qwerty">
+                        <button onclick="FourthScreen()"class="qq"></button>
+                        <button onclick= "FifthScreen()" class="qq"></button>
+                        <button onclick = "SixthScreen()" class="qq"></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="card">
+                    <hr>
+                    <p>Card</p>
+                    <img src="images/visacard.jpg" style="width:165px; transform: rotate(90deg);margin-left:216;margin-left: 200px;">
+                </div>
+                <div class="card2">
+                    <hr>
+                    <p>Cash</p>
+                    <img src="images/20dollar.jpg" style="width: 107px; transform: rotate(90deg); z-index: 1px ;margin-left: 240px;">
+                </div>
+                <div class="card3">
+                    <hr>
+                    <p>Get Receipt Here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="c">
+        <div class="b container-fluid">
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-2">
+                    <button class="button"onclick="ShowPressedButton(this.value)" value="1">1</button>
+                    <button class="button"onclick="ShowPressedButton(this.value)" value="2">2</button>
+                    <button class="button"onclick="ShowPressedButton(this.value)" value="3">3</button>
+                    <button class="button"onclick="ShowPressedButton(this.value)" value="4">4</button>
+                    <button class="button"onclick="ShowPressedButton(this.value)" value="5">5</button>
+                    <button class="button"onclick="ShowPressedButton(this.value)" value="6">6</button>
+                    <button class="button"onclick="ShowPressedButton(this.value)" value="7">7</button>
+                    <button class="button"onclick="ShowPressedButton(this.value)" value="8">8</button>
+                    <button class="button"onclick="ShowPressedButton(this.value)" value="9">9</button>
+                </div>
+                <div class="col-sm-1">
+                    <button class="boxxx1">CANCEL</button>
+                    <button class="boxex1">SPACE</button>
+                    <button class="boxrx1">ENTER</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="atmjs.js"></script>
+    <form><input type="radio" value="Yes"></form>
+</body>
+</html>
